@@ -7,7 +7,7 @@ public class B4_MiltonFilter extends World
 
    public void go()
    {
-      plane.loadBackGround("Mickey.jpg");          //*** new method to load a diffrent JPG
+      plane.loadBackGround("wolf of wall street image 3.jpg");          //*** new method to load a diffrent JPG
       System.out.println("This will be printed to the  window. ");
       plane.teleport(0,0);
       plane.showBackGround();                    
@@ -27,13 +27,26 @@ public class B4_MiltonFilter extends World
             {
                plane.setPixelColor(255,128,1);
             }
+
+
             
             if((red>73 && green>90 && blue>40) && (red<125 && green<115 && blue<60))
             {
                plane.setPixelColor(51,51,251);
             }
+
+            if(red<15 && red>0 && green<15 && blue>0 && blue<25 && row<153) {
+               plane.setPixelColor(255,128,1);
+            }
+
+
          }
       }
+
+
+
+
+
    }
 }
 

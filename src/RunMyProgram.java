@@ -7,7 +7,7 @@ public class RunMyProgram {
     public static void main(String[] args) {
         World run;
 
-        run = (new B3_HalfTheRed()   );
+        run = (new A5_square()   );
         run.planeIcon = "plane.png";
         run.pictureFileName="Wolf of Wall Street Image 3.jpg";
         run.HEIGHT=800;
